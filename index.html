@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<title>Virex App Landing Page</title>
+	<!-- Favicon -->
+	<link rel="icon" href="./resources/img/favicon.png" type="image/png" sizes="16x16">
+	<!-- google fonts -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Sarabun:wght@600;800&display=swap" rel="stylesheet">
+	<!-- line awesome icons -->
+	<link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="vendors/css/owl.carousel.min.css">
+	<!-- Owl Carousel Theme Default -->
+	<link rel="stylesheet" href="vendors/css/owl.theme.default.min.css">
+	<!-- bootstrap css -->
+	<link rel="stylesheet" href="vendors/css/bootstrap.min.css">
+	<!-- magnific-popup css -->
+	<link rel="stylesheet" href="vendors/css/magnific-popup.css">
+	<!-- style css -->
+	<link rel="stylesheet" href="./resources/css/main.css">
+	<!-- animate css -->
+	<link rel="stylesheet" href="vendors/css/animate.min.css">
+</head>
+<body data-spy="scroll" data-target="#navMenu" data-offset="75">
+	<nav id="navMenu" class="fixed-top">
+		<div class="container">
+			<!-- <Desktop Menu> -->
+			<div class="menubar_desktop d-none d-lg-flex row">
+				<div class="col-2 d-flex align-items-center">
+					<a href="#" class="logo">
+						<img src="./resources/img/logo.png" class="img-fluid" alt="logo">
+					</a>
+				</div>
+				<div class="col-8 d-flex justify-content-center align-items-center">
+					<div class="menu_area">
+						<ul>
+							<li>
+								<a href="#header" class="nav-link active">Home</a>
+								<img class="ml-2" src="./resources/img/icons/chevron_down.png" alt="more">
+								<!-- first sub menu -->
+								<ul>
+									<li><a href="#">SEO Marketing</a></li>
+									<li>
+										<a href="#">App Landing Page</a>
+										<!-- second sub menu -->
+										<ul>
+											<li><a href="#">Dark Mood</a></li>
+											<li><a href="#">Light Mood</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Sass Landing Page</a></li>
+									<li><a href="#">Personal Portfolio</a></li>
+								</ul>
+							</li>
+							<li><a href="#featuers_section" class="nav-link">Features</a></li>
+							<li><a href="#app_screens_section" class="nav-link">Screenshots</a></li>
+							<li><a href="#easy_step_section" class="nav-link">Steps</a></li>
+							<li><a href="#expertise_section" class="nav-link">Functions</a></li>
+							<li><a href="#newsletter_section" class="nav-link">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-2 d-flex align-items-center">
+					<a href="#" class="download_btn ml-auto">Download</a>
+				</div>				
+			</div>	
+			<!-- </Desktop Menu> -->
+			<!-- <mobile Menu> -->
+			<div class="menubar_mobile d-block d-lg-none">
+				<div class="menu_m_container d-flex justify-content-between align-items-center">
+					<button id="menuBar" class="menu_bar_icon d-block">
+						<span class="hambarger"></span>
+					</button>
+					<a href="#" class="logo d-block">
+						<img src="./resources/img/logo.png" class="img-fluid" alt="logo">
+					</a>
+				</div>
+				<div id="mobileMenu" class="mobile_menu_area display-none">
+					<ul class="multiMenu">
+						<li>
+							<a href="#header">Home</a>
+							<!-- first sub menu -->
+							<ul>
+								<li><a href="#">SEO Marketing</a></li>
+								<li>
+									<a href="#">App Landing Page</a>
+									<!-- second sub menu -->
+									<ul>
+										<li><a href="#">Dark Mood</a></li>
+										<li><a href="#">Light Mood</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Sass Landing Page</a></li>
+								<li><a href="#">Personal Portfolio</a></li>
+							</ul>
+						</li>
+						<li><a href="#featuers_section">Features</a></li>
+						<li><a href="#app_screens_section">Screenshots</a></li>
+						<li><a href="#easy_step_section">Steps</a></li>
+						<li><a href="#expertise_section">Functions</a></li>
+						<li><a href="#newsletter_section">Contact</a></li>
+					</ul>
+					<div class="others_link">
+						<a href="#" class="download_btn m-auto">Download</a>
+					</div>
+				</div>
+				
+			</div>
+			<!-- </mobile Menu> -->
+		</div>			
+	</nav>
+	<!--==== Header Menu ====-->
+	<header id="header" class="d-flex align-items-center">
+			<div class="container js--sticky">
+				<div class="row align-items-center">
+					<div class="col-lg-6 mt-xl-5 mb-4">
+						<h4 class="mb-4">Creative App Of 2020</h4>
+						<h1>Best Mobile App For Your Storage Management</h1>
+						<p class="py-4">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
+						<a href="#" class="btn-header m-2 d-inline-block">Try Free Trial</a>
+						<a href="#" class="btn-header m-2 d-inline-block">Download</a>
+					</div>
+					<div class="col-lg-6 position-static">
+						<div class="mobiles">
+							<img src="./resources/img/mobile-double.png" class="img-fluid upDownAnimation" alt="">
+						</div>
+					</div>
+				</div>	
+			</div>
+	</header>
+	<!--==X==End of Header Menu ==X==-->
+
+	<!--==== Counter Section ====-->
+	<section id="counter_Section" class="py-100 d-flex align-items-center" style="background:linear-gradient(rgba(107, 40, 216,0.8),rgba(107, 40, 216,0.8)),url(./resources/img/counting-bg2.jpg) fixed no-repeat center center; background-size:cover;">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-lg-3 my-4 my-xl-0">
+					<div class="d-xl-flex align-items-center text-center text-xl-left count_area">
+						<div class="icon mb-4 mb-xl-0">
+							<i class="las la-check-double"></i>
+						</div>
+						<div class="count_text pl-xl-4">
+							<div class="count_number">
+								<span class="counter">1200</span>
+								<span>+</span>
+							</div>
+							<h5>Project Completed</h5>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-3 my-4 my-xl-0">
+					<div class="d-xl-flex align-items-center text-center text-xl-left count_area">
+						<div class="icon mb-4 mb-xl-0">
+							<i class="las la-project-diagram"></i>
+						</div>
+						<div class="count_text pl-xl-4">
+							<div class="count_number">
+								<span class="counter">15</span>
+							</div>
+							<h5>Working In</h5>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-3 my-4 my-xl-0">
+					<div class="d-xl-flex align-items-center text-center text-xl-left count_area">
+						<div class="icon mb-4 mb-xl-0">
+							<i class="las la-award"></i>
+						</div>
+						<div class="count_text pl-xl-4">
+							<div class="count_number">
+								<span class="counter">120</span>
+							</div>
+							<h5>Award Won</h5>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-3 my-4 my-xl-0">
+					<div class="d-xl-flex align-items-center text-center text-xl-left count_area">
+						<div class="icon mb-4 mb-xl-0">
+							<i class="las la-smile-beam"></i>
+						</div>
+						<div class="count_text pl-xl-4">
+							<div class="count_number">
+								<span class="counter">3200</span>
+								<span>+</span>
+							</div>
+							<h5>Happy clients</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</section>
+	<!--==X==End of Counter Section ==X==-->
+
+	<!--==== Easy Steps  ====-->
+	<section id="easy_step_section" class="py-100">
+		<div class="container">
+			<div class="section_content text-center">
+				<h5 class="text-capitalize">Easy Steps</h5>
+				<h2 class="text-capitalize my-4">Discover this App More Easy</h2>
+				<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis.</p>
+			</div>
+			<div class="row justify-content-between">
+				<div class="col-lg-6 col-xl-5 position-static">
+					<div class="earn_mobile mt-5 mt-lg-0">
+						<img src="./resources/img/earning_mobile.png" class="img-fluid upDownAnimation" alt="Earning">
+					</div>					
+				</div>
+				<div class="col-lg-6">
+					<div class="easy_left_content">
+						<div class="easy_content_item d-flex align-items-center wow animate__zoomIn" data-wow-duration="1s" data-wow-delay="0s">
+							<div class="easy_icon position-relative">
+								<i class="las la-download"></i>
+								<h4 class="mt-3">Download free<br> trial</h4>
+								<span class="sl_no position-absolute">1</span>
+							</div>
+							<div class="easy_content_text ml-4">
+								<p>This is version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aen ean itudin, lorem quis bibendum auctor, nisi elit cons tequat ipsum, nec sagittis sem nibh id elit. </p>
+							</div>
+						</div>
+						<div class="easy_content_item d-flex align-items-center wow animate__fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
+							<div class="easy_icon position-relative order-2">
+								<i class="las la-user-alt"></i>
+								<h4 class="mt-3">Make your <br>profile</h4>
+								<span class="sl_no position-absolute">2</span>
+							</div>
+							<div class="easy_content_text mr-4 order-1">
+								<p>This is version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aen ean itudin, lorem quis bibendum auctor, nisi elit cons tequat ipsum, nec sagittis sem nibh id elit. </p>
+							</div>
+						</div>	
+						<div class="easy_content_item d-flex align-items-center wow animate__zoomIn" data-wow-duration="1s" data-wow-delay="0s">
+							<div class="easy_icon position-relative">
+								<i class="las la-smile-beam"></i>
+								<h4 class="mt-3">Use your <br>app</h4>
+								<span class="sl_no position-absolute">3</span>
+							</div>
+							<div class="easy_content_text ml-4">
+								<p>This is version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aen ean itudin, lorem quis bibendum auctor, nisi elit cons tequat ipsum, nec sagittis sem nibh id elit. </p>
+							</div>
+						</div>							
+					</div>
+				</div>
+			</div>
+		</div>		
+	</section>	
+	<!--==X== End of Easy Steps ==X==-->
+
+	<!--==== Featuers section ====-->
+	<section id="featuers_section" class="py-100">
+		<div class="container">
+			<div class="section_content text-center mb-5 wow animate__fadeIn" data-wow-duration="5s" data-wow-delay="1s">
+				<h5 class="text-capitalize">Our Featuers</h5>
+				<h2 class="text-capitalize my-4">Top Features To Manage Storage</h2>
+				<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis.</p>
+			</div>
+			<!-- Featuers -->
+			<div class="featuers">
+				<div class="row justify-content-center justify-content-lg-start">
+					<div class="col-md-6 col-lg-4 my-3 fea_item_inner wow animate__fadeInTopLeft" data-wow-duration="2s" data-wow-delay="0s">
+						<div class="featuers_item py-5 px-4">
+							<i class="las la-cloud-upload-alt"></i>
+							<h3 class="my-4">Automatic Backups</h3>
+							<p class="mb-0">This is Photoshop's version  of Loem Ipum. Proin gravida nibh vel velit er aliquet.Iean lorem ipsum ollcit in the</p>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-4 my-3 fea_item_inner wow animate__fadeIn" data-wow-duration="2s" data-wow-delay="1s">
+						<div class="featuers_item py-5 px-4">
+							<i class="las la-share-alt"></i>
+							<h3 class="my-4">Remote Access</h3>
+							<p class="mb-0">This is Photoshop's version  of Loem Ipum. Proin gravida nibh vel velit er aliquet.Iean lorem ipsum ollcit in the</p>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-4 my-3 fea_item_inner wow animate__fadeInTopRight" data-wow-duration="2s" data-wow-delay="0s">
+						<div class="featuers_item py-5 px-4">
+							<i class="las la-share"></i>
+							<h3 class="my-4">File Sharing</h3>
+							<p class="mb-0">This is Photoshop's version  of Loem Ipum. Proin gravida nibh vel velit er aliquet.Iean lorem ipsum ollcit in the</p>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-4 my-3 fea_item_inner  wow animate__fadeInRight" data-wow-duration="2s" data-wow-delay="0s">
+						<div class="featuers_item py-5 px-4">
+							<i class="las la-lock"></i>
+							<h3 class="my-4">File Security</h3>
+							<p class="mb-0">This is Photoshop's version  of Loem Ipum. Proin gravida nibh vel velit er aliquet.Iean lorem ipsum ollcit in the</p>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-4 my-3 fea_item_inner  wow animate__fadeIn" data-wow-duration="2s" data-wow-delay="0s">
+						<div class="featuers_item py-5 px-4">
+							<i class="las la-file-import"></i>
+							<h3 class="my-4">File Backup</h3>
+							<p class="mb-0">This is Photoshop's version  of Loem Ipum. Proin gravida nibh vel velit er aliquet.Iean lorem ipsum ollcit in the</p>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-4 my-3 fea_item_inner  wow animate__fadeInLeft" data-wow-duration="2s" data-wow-delay="0s">
+						<div class="featuers_item py-5 px-4">
+							<i class="las la-file-archive"></i>
+							<h3 class="my-4">File Archiving</h3>
+							<p class="mb-0">This is Photoshop's version  of Loem Ipum. Proin gravida nibh vel velit er aliquet.Iean lorem ipsum ollcit in the</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--/ End of Featuers -->
+		</div>
+	</section>
+	<!--==X== End of Featuers section ==X==-->
+<!-- style="background:url(./resources/img/video_bg.jpg) fixed no-repeat center center; background-size:cover;" -->
+	<!--==== video play section ====-->
+	<section id="video_play_section" class="d-flex align-items-center py-100 parallax-window" data-parallax="scroll" data-image-src="./resources/img/video_bg.jpg" data-speed="0.3">
+		<div class="container text-center">
+			<a href="https://www.youtube.com/watch?v=WXurHaTTrUU" class="video_icon popup_youtube d-inline-block">
+				<i class="las la-play"></i>
+			</a>
+		</div>
+	</section>
+	<!--==X== End of video play section ==X==-->
+	<!--==== Expertise Section ====-->
+	<section id="expertise_section" class="py-100">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-5 mb-5 mb-xl-0 pb-5 pb-xl-0">
+					<div class="section_content mb-5">
+						<h5 class="text-capitalize">Expertise</h5>
+						<h2 class="text-capitalize my-4">Speciality in Those Field, Get Faster Solution</h2>
+						<p>This is of Lorem Ipsum. Proin lorem graida nibh vel.</p>
+					</div>
+					<div class="expert_team_area d-flex justify-content-center justify-content-xl-start">
+						<div class="expert_team">
+							<div class="ex_img_area">
+								<img src="./resources/img/experts.jpg" class="img-fluid" alt="Expert Team Image">
+								<a href="https://www.youtube.com/watch?v=3zid1SHKXJk" class="popup_youtube_expertise d-inline-block">
+									<i class="las la-play"></i>
+								</a>
+							</div>
+							<div class="chart_uiux">
+								<img src="./resources/img/UI_UX.png" class="img-fluid" alt="UI & UX Chart">
+							</div>
+						</div>						
+					</div>
+				</div>
+				<div class="col-xl-7">					
+					<div class="expertise_content ml-xl-2 mt-5">
+						<div class="row">
+							<div class="col-md-6 expertise_content_item text-center text-xl-left">
+								<div class="ex_content_inner wow animate__fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
+									<span class="ex_icon d-inline-block">
+										<i class="las la-sync-alt"></i>
+									</span>
+									<h3 class="mt-4 mb-3">Reasearch & <br>Analysis</h3>
+									<p>This is version  of Lorwem Ipum.lor Proin gravida nibh vel velit erlorem aliqu.</p>
+								</div>
+							</div>
+							<div class="col-md-6 expertise_content_item text-center text-xl-left">
+								<div class="ex_content_inner wow animate__fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
+									<span class="ex_icon d-inline-block">
+										<i class="las la-layer-group"></i>
+									</span>
+									<h3 class="mt-4 mb-3">UI/UX Design & <br>Research</h3>
+									<p>This is version  of Lorwem Ipum.lor Proin gravida nibh vel velit erlorem aliqu.</p>
+								</div>
+							</div>
+							<div class="col-md-6 expertise_content_item text-center text-xl-left">
+								<div class="ex_content_inner wow animate__fadeInUp" data-wow-duration="1.5s" data-wow-delay="0s">
+									<span class="ex_icon d-inline-block">
+										<i class="las la-code"></i>
+									</span>
+									<h3 class="mt-4 mb-3">Expert Code for App Development</h3>
+									<p>This is version  of Lorwem Ipum.lor Proin gravida nibh vel velit erlorem aliqu.</p>
+								</div>
+							</div>
+							<div class="col-md-6 expertise_content_item text-center text-xl-left">
+								<div class="ex_content_inner wow animate__fadeInUp" data-wow-duration="1.5s" data-wow-delay="0s">
+									<span class="ex_icon d-inline-block">
+										<i class="las la-chart-bar"></i>
+									</span>
+									<h3 class="mt-4 mb-3">Expert User Experience</h3>
+									<p>This is version  of Lorwem Ipum.lor Proin gravida nibh vel velit erlorem aliqu.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>			
+		</div>
+	</section>
+	<!--==X== End of Expertise Section ==X==-->
+	<!--==== Personal App ====-->
+	<section id="personal_app" class="py-100">
+		<div class="container">
+			<div class="app_built">
+				<div class="row justify-content-center justify-content-xl-between">
+					<div class="col-lg-6 mt-lg-5 pt-lg-5 wow animate__fadeInLeft" data-wow-duration="1s" data-wow-delay="0s">
+						<h2 class="mb-5">More Easy And More Powerful And Personal App Built For You</h2>
+						<div class="p_app_content_item mt-3 d-flex">
+							<div class="p_app_icon mt-1 mr-4">
+								<i class="las la-layer-group"></i>
+							</div>
+							<div class="p_app_content">
+								<h4>Expert User Experience Component</h4>
+								<p>This is version  ofip Lorem Ipsum. Proin gravida nibh vel vlit auctor aliquet. Aen ean itudin, lorem quis.</p>
+							</div>
+						</div>
+						<div class="p_app_content_item mt-3 d-flex">
+							<div class="p_app_icon mt-1 mr-4">
+								<i class="las la-mobile-alt"></i>
+							</div>
+							<div class="p_app_content">
+								<h4>Expert User Experience Component</h4>
+								<p>This is version  ofip Lorem Ipsum. Proin gravida nibh vel vlit auctor aliquet. Aen ean itudin, lorem quis.</p>
+							</div>
+						</div>
+						<div class="p_app_content_item mt-3 d-flex">
+							<div class="p_app_icon mt-1 mr-4">
+								<i class="las la-shield-alt"></i>
+							</div>
+							<div class="p_app_content">
+								<h4>Expert User Experience Component</h4>
+								<p>This is version  ofip Lorem Ipsum. Proin gravida nibh vel vlit auctor aliquet. Aen ean itudin, lorem quis.</p>
+							</div>
+						</div>
+						<div class="p_app_content_item mt-3 d-flex">
+							<div class="p_app_icon mt-1 mr-4">
+								<i class="las la-hdd"></i>
+							</div>
+							<div class="p_app_content">
+								<h4>Expert User Experience Component</h4>
+								<p>This is version  ofip Lorem Ipsum. Proin gravida nibh vel vlit auctor aliquet. Aen ean itudin, lorem quis.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-5 d-lg-flex d-xl-block align-items-center">
+						<img src="./resources/img/personal_app_mobile.png" class="pa_mobile" alt="mobile">
+					</div>
+				</div>
+			</div>			
+		</div>
+		<img src="./resources/img/personal_app.png" class="personal_app_bg img-fluid" alt="personal app background">
+	</section>
+	<!--==X== End of Personal App ==X==-->
+	<!--==== Perfect Solution ====-->
+	<section id="perfect_solution" class="py-100">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-5 position-static mb-5 mb-lg-0">
+					<div class="perfect_image zoomInOut">
+						<img src="./resources/img/mobile_perfect.png" alt="Perfect Image">
+					</div>
+				</div>
+				<div class="col-lg-7">
+					<div class="perfect_contents text-center text-lg-left">
+						<div class="section_content text-lg-left text-center mb-3">
+							<h2>Perfect Solution For Your ios & Android Device</h2>
+						</div>					
+						<div class="row">
+							<div class="col-md-6">
+								<div class="perf_content_inner wow animate__zoomIn" data-wow-duration="1s" data-wow-delay="0s">
+									<span class="perf_icon d-inline-block">
+										<i class="las la-sync-alt"></i>
+									</span>
+									<h3 class="my-3">Get Regular Update</h3>
+									<p>This is Photoshop's version  of Loem Ipum. Proin gravida nibh vel velit er aliqu.</p>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="perf_content_inner wow animate__zoomIn" data-wow-duration="1s" data-wow-delay="0s">
+									<span class="perf_icon d-inline-block">
+										<i class="las la-download"></i>
+									</span>
+									<h3 class="my-3">Free Download</h3>
+									<p>This is Photoshop's version  of Loem Ipum. Proin gravida nibh vel velit er aliqu.</p>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="perf_content_inner wow animate__zoomIn" data-wow-duration="1s" data-wow-delay="0s">
+									<span class="perf_icon d-inline-block">
+										<i class="las la-share-alt"></i>
+									</span>
+									<h3 class="my-3">Shareable Access</h3>
+									<p>This is Photoshop's version  of Loem Ipum. Proin gravida nibh vel velit er aliqu.</p>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="perf_content_inner wow animate__zoomIn" data-wow-duration="1s" data-wow-delay="0s">
+									<span class="perf_icon d-inline-block">
+										<i class="las la-boxes"></i>
+									</span>
+									<h3 class="my-3">Customize Storage</h3>
+									<p>This is Photoshop's version  of Loem Ipum. Proin gravida nibh vel velit er aliqu.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</section>
+	<!--==X== End of perfect solution ==X==-->
+	<!--==== App Screens Section ====-->
+	<section id="app_screens_section" class="py-100">
+		<div class="container">
+			<div class="section_content text-center mb-5">
+				<h5 class="text-capitalize">Application Screens</h5>
+				<h2 class="text-capitalize my-4">Moder And User Friendly App Screens</h2>
+				<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis.</p>
+			</div>
+			<!-- Application Carousel -->
+			<div class="app_container">
+				<div class="app_carousel owl-carousel">
+					<div class="app_image">
+						<img src="./resources/img/mobile_1.png" class="img_fluid" alt="Mobile App 1">
+					</div>
+					<div class="app_image">
+						<img src="./resources/img/mobile_2_2.png" class="img_fluid" alt="Mobile App 2">
+					</div>
+					<div class="app_image">
+						<img src="./resources/img/mobile_3.png" class="img_fluid" alt="Mobile App 3">
+					</div>
+					<div class="app_image">
+						<img src="./resources/img/mobile_1.png" class="img_fluid" alt="Mobile App 1">
+					</div>
+				</div>
+			</div>
+			<!-- /End of Application Carousel -->
+		</div>		
+	</section>
+	<!--==X== End of App Screens Section ==X==-->
+	<!--==== Download Section ====-->
+	<section id="download_section" class="py-100">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="section_content">
+						<h5 class="text-capitalize">App Download</h5>
+						<h2 class="text-capitalize my-4">Download The App With Top 
+							Features</h2>
+						<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis.</p>
+					</div>
+					<div class="down_icons mt-5">
+						<a href="#" target="_blank">
+							<img src="./resources/img/icons/play-store.png" alt="Play Store">
+						</a>
+						<a href="#" target="_blank">
+							<img src="./resources/img/icons/app-store.png" alt="Apple Store">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--==X== End of Download Section ==X==-->
+	<!--==== Testimonial Section ====-->
+	<section id="testimonial_section" class="py-100">
+		<div class="container">
+			<div class="section_content text-center mb-5">
+				<h5 class="text-capitalize">Testimonial</h5>
+				<h2 class="text-capitalize my-4">Our Lovely Clients Review </h2>
+				<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis.</p>
+			</div>
+			<div class="testimonial_carousel owl-carousel">
+				<div class="test_item text-center">
+					<div class="client_profile_pic">
+						<img src="./resources/img/testimonial/team3.jpg" alt="Danial Henry">
+					</div>
+					<i class="las la-quote-left"></i>
+					<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicit wudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit aet nih vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
+					<div class="stars">
+						<i class="las la-star"></i>
+						<i class="las la-star"></i>
+						<i class="las la-star"></i>
+						<i class="las la-star"></i>
+						<i class="las la-star"></i>
+					</div>
+					<h3>Danial Henry</h3>
+				</div>
+				<div class="test_item text-center">
+					<div class="client_profile_pic">
+						<img src="./resources/img/testimonial/team3.jpg" alt="Danial Henry">
+					</div>
+					<i class="las la-quote-left"></i>
+					<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicit wudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit aet nih vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
+					<div class="stars">
+						<i class="las la-star"></i>
+						<i class="las la-star"></i>
+						<i class="las la-star"></i>
+						<i class="las la-star"></i>
+						<i class="las la-star"></i>
+					</div>
+					<h3>Danial Henry</h3>
+				</div>
+				<div class="test_item text-center">
+					<div class="client_profile_pic">
+						<img src="./resources/img/testimonial/team3.jpg" alt="Danial Henry">
+					</div>
+					<i class="las la-quote-left"></i>
+					<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicit wudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit aet nih vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
+					<div class="stars">
+						<i class="las la-star"></i>
+						<i class="las la-star"></i>
+						<i class="las la-star"></i>
+						<i class="las la-star"></i>
+						<i class="las la-star"></i>
+					</div>
+					<h3>Danial Henry</h3>
+				</div>
+				<div class="test_item text-center">
+					<div class="client_profile_pic">
+						<img src="./resources/img/testimonial/team3.jpg" alt="Danial Henry">
+					</div>
+					<i class="las la-quote-left"></i>
+					<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicit wudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit aet nih vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
+					<div class="stars">
+						<i class="las la-star"></i>
+						<i class="las la-star"></i>
+						<i class="las la-star"></i>
+						<i class="las la-star"></i>
+						<i class="las la-star"></i>
+					</div>
+					<h3>Danial Henry</h3>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--==X== End of Testimonial Section ==X==-->
+	<!--==== Newsletter Section ====-->
+	<section id="newsletter_section" class="py-100">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="section_content text-center text-lg-left mb-5 mb-lg-0">
+						<h2 class="text-capitalize mb-4">Subscribe Our Newsletter</h2>
+						<p class="ml-auto ml-lg-0">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibih vel velit auctor aliquet. Aenean sollicitudin, lorem quis.This isaw Photoshop's version  of Lorem Ipsum.</p>
+					</div>
+				</div>
+				<div class="col-lg-6 d-flex align-items-center">
+					<form action="" class="news_form">
+						<input type="email" class="news_email" name="email" id="email" placeholder="Your Email......"/>
+						<button type="submit" class="news_submit">Subscribe</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--==X== End of Newsletter ==X==-->
+	<!--==== Footer Section ====-->
+	<footer id="footer_section">
+		<div class="container">
+			<div class="row justify-content-between py-100">
+				<div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+					<a href="#">
+						<img src="./resources/img/logo-2.png" alt="logo">
+					</a>
+					<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel revelit auctor aliquet. Aenean lic eitudin, lorem quis bibendum.This is Photoshop's version  of Lorem Ipsum. Proin .</p>
+					<div class="social_icons">
+						<a href="#">
+							<i class="lab la-facebook-f"></i>
+						</a>
+						<a href="#">
+							<i class="lab la-twitter"></i>
+						</a>
+						<a href="#">
+							<i class="lab la-linkedin-in"></i>
+						</a>
+						<a href="#">
+							<i class="lab la-instagram"></i>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-2 d-flex justify-content-lg-center mb-5 mb-lg-0">
+					<div class="links company_links">
+						<h4>Company</h4>
+						<ul class="pl-0">
+							<li><i class="las la-angle-right"></i><a href="#">Advertise</a></li>
+							<li><i class="las la-angle-right"></i><a href="#">Support</a></li>
+							<li><i class="las la-angle-right"></i><a href="#">Marketing</a></li>
+							<li><i class="las la-angle-right"></i><a href="#">Contact</a></li>
+							<li><i class="las la-angle-right"></i><a href="#">About Us</a></li>
+						</ul>
+					</div>					
+				</div>
+				<div class="col-md-6 col-lg-2 d-flex justify-content-lg-center mb-5 mb-lg-0">
+					<div class="links company_links">
+						<h4>Quick Links</h4>
+						<ul class="pl-0">
+							<li><i class="las la-angle-right"></i><a href="#">Home</a></li>
+							<li><i class="las la-angle-right"></i><a href="#">Featuers</a></li>
+							<li><i class="las la-angle-right"></i><a href="#">Pricing</a></li>
+							<li><i class="las la-angle-right"></i><a href="#">Screenshot</a></li>
+							<li><i class="las la-angle-right"></i><a href="#">Testimonial</a></li>
+						</ul>
+					</div>	
+				</div>
+				<div class="col-md-6 col-lg-3 d-flex justify-content-lg-end mb-5 mb-lg-0">
+					<div class="links download_links">
+						<h4>Download Link</h4>
+						<div class="down_buttons">
+							<a href="#" class="d-block mb-2">
+								<img src="./resources/img/icons/play-store.png" alt="Play Store">
+							</a>
+							<a href="#"  class="d-block">
+								<img src="./resources/img/icons/app-store.png" alt="App Store">
+							</a>
+						</div>
+					</div>	
+				</div>
+			</div>
+			<div class="copyright text-center">
+				<p>Copyright @2020 Virex. All Rights Reserved.</p>
+			</div>
+		</div>
+	</footer>
+	<!--==X== End of Footer Section ==X==-->
+
+
+	<!-- Java script started -->
+	<script src="vendors/js/jquery-3.3.1.min.js"></script>
+	<!-- popper js -->
+	<script src="vendors/js/popper.min.js"></script>
+	<!-- bootstrap js -->
+	<script src="vendors/js/bootstrap.min.js"></script>
+	<!-- Waypoints js for sticky menu -->
+	<script src="vendors/js/jquery.waypoints.min.js"></script>	
+	<!-- Counterup js for Counting number -->
+	<script src="vendors/js/jquery.counterup.min.js"></script>
+	<!-- magnific-popup js -->
+	<script src="vendors/js/jquery.magnific-popup.min.js"></script>
+	<!-- Owl Carousel -->
+	<script src="vendors/js/owl.carousel.min.js"></script>
+	<!-- Parallax -->
+	<script src="vendors/js/parallax.min.js"></script>
+	<!-- wow js -->
+	<script src="vendors/js/wow.min.js"></script>
+ 	<!-- Main/custom js -->
+	<script src="resources/js/main.js"></script>
+</body>
+</html>

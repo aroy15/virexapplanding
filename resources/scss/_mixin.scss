@@ -1,0 +1,79 @@
+
+//mixins
+@mixin b-radius($values){
+	border-radius:$values;
+	-webkit-border-radius:$values;
+	-moz-border-radius:$values;
+	-ms-border-radius:$values;
+	-o-border-radius:$values;
+}
+@mixin transform-translate-50(){
+	transform:translate(-50%, -50%);
+	-webkit-transform:translate(-50%, -50%);
+	-moz-transform:translate(-50%, -50%);
+	-ms-transform:translate(-50%, -50%);
+	-o-transform:translate(-50%, -50%);
+	left:50%;
+	top:50%;
+}
+@mixin transfrom-top-center{
+	top:50%;
+	transform:translateY(-50%);
+	-webkit-transform:translateY(-50%);
+	-moz-transform:translateY(-50%);
+	-ms-transform:translateY(-50%);
+	-o-transform:translateY(-50%);
+}
+@mixin transfrom-left-center{
+	left:50%;
+	transform:translateX(-50%);
+	-webkit-transform:translateX(-50%);
+	-moz-transform:translateX(-50%);
+	-ms-transform:translateX(-50%);
+	-o-transform:translateX(-50%);
+}
+@mixin transform-translate-custom($xaxis,$yaxis){
+	transform:translate($xaxis,$yaxis);
+	-webkit-transform:translate($xaxis,$yaxis);
+	-moz-transform:translate($xaxis,$yaxis);
+	-ms-transform:translate($xaxis,$yaxis);
+	-o-transform:translate($xaxis,$yaxis);
+}
+@mixin transform-scale($scale){
+	transform:scale($scale);
+	-webkit-transform:scale($scale);
+	-moz-transform:scale($scale);
+	-ms-transform:scale($scale);
+	-o-transform:scale($scale);
+}
+@mixin transform-rotate($rotate){
+	transform:rotate($rotate);
+	-webkit-transform:rotate($rotate);
+	-moz-transform:rotate($rotate);
+	-ms-transform:rotate($rotate);
+	-o-transform:rotate($rotate);
+}
+@mixin transition-all($gettr) {
+	transition:$gettr;
+	-webkit-transition:$gettr;
+	-moz-transition:$gettr;
+	-ms-transition:$gettr;
+	-o-transition:$gettr;
+}
+@mixin transform-all($value) {
+	transform:$value;
+	-webkit-transform:$value;
+	-moz-transform:$value;
+	-ms-transform:$value;
+	-o-transform:$value;
+}
+@mixin icons_default($widthHeight) {
+	font-size: 40px;
+    color: #ffffff;
+    height: $widthHeight;
+    width: $widthHeight;
+    line-height: $widthHeight;
+	background-color:$blue-light3;
+	text-align:center;
+	@include b-radius(5px);
+}

@@ -1,0 +1,58 @@
+/***************************/
+/* > Reset code */
+/***************************/
+body{
+	font-family: $font-poppins;
+	font-size:15px;
+	color:$black;
+	overflow-x:hidden;
+	width:100vw;
+}
+// button,input,textarea, select, input:focus,textarea:focus,button:focus, select:focus, .btn,.btn:focus{
+// 	outline:0 !important;
+// 	box-shadow: none !important;
+// 	border-width:0 !important;
+// }
+a, a:hover{
+	text-decoration:none;
+	color:$black;
+	@include transition-all(0.3s);
+}
+li{
+	list-style: none;
+}
+h1,h2,h3,h4,h5,h6{
+	color:$black;
+	font-family: $font-poppins;
+}
+h1{
+	font-size:64px;
+	font-weight: 800;
+}
+h2{
+	font-size:36px;
+	font-weight: 700;
+}
+h3{
+	font-size:24px;
+	font-weight: 600;
+}
+h4{
+	font-size:18px;
+	font-weight: 600;
+}
+h5, h6{
+	font-size: 16px;
+}
+h5{
+	color:#567df4;
+}
+p{
+	color:$text-light;
+	font-size:15px;
+	font-family: $font-poppins;
+}
+section{
+	overflow:hidden;
+}
+/*XXXXXX===End of Reset Code===XXXXXX*/

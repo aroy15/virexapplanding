@@ -1,0 +1,123 @@
+/***************************/
+/* > Common Classes */
+/***************************/
+.text-bold{
+	font-weight:bold;
+}
+.text-normal{
+	font-weight:normal;
+}
+.cursor-pointer{
+ cursor:pointer;
+}
+/*Padding*/
+.py-100, .pb-100{
+	padding-bottom:100px;
+}
+.py-100, .pt-100{
+	padding-top:100px;
+}
+/*border radius*/
+.b-r-5{
+ @include b-radius(5px);
+}
+.b-r-8{
+	@include b-radius(8px);
+}
+.b-r-50{
+	@include b-radius(50%);
+}
+.transition-5{
+	@include transition-all(0.5s)
+}
+
+.display-block{
+	display:block;
+}
+.display-none{
+	display:none;
+}
+/* Fade in Animation */
+.zoomInOut {
+	animation: zoomInOut 2s linear infinite;
+	animation-direction:alternate;
+	position:relative;
+}
+@keyframes zoomInOut {
+	0%   {
+		opacity:0.8;
+		@include transform-scale(0.9)
+	}
+	100% {
+		opacity:1;
+		@include transform-scale(1);
+	}
+}
+/*up-down animation*/
+.upDownAnimation{	
+	animation: upDown 2s linear infinite;
+	animation-direction:alternate;
+	position:relative;
+}
+@keyframes upDown{
+	0%{
+		top:20px;
+	}
+	100%{
+		top:0px;
+	}
+}
+.v-hidden{
+ visibility: hidden;
+}
+.v-visible{
+ visibility:visible;
+}
+.transform-top-to-center{
+ top:50%;
+ transform:translateY(-50%);
+ -webkit-transform:translateY(-50%);
+ -moz-transform:translateY(-50%);
+ -ms-transform:translateY(-50%);
+ -o-transform:translateY(-50%);
+}
+.transform-left-to-center{
+ left:50%;
+ transform:translateX(-50%);
+ -webkit-transform:translateX(-50%);
+ -moz-transform:translateX(-50%);
+ -ms-transform:translateX(-50%);
+ -o-transform:translateX(-50%);
+}
+.section_content{
+	p {
+		color: #7f7f7f;
+		font-size: 15px;
+		max-width: 493px;
+		width: 100%;
+		margin: auto;
+	}
+}
+/*XXXXXX===End of Common Classes===XXXXXX*/
+/****Custom Scroll Bar Design*****/
+.custom-scroll-bar{
+		//  width 
+	&::-webkit-scrollbar {
+		width: 8px;
+	}
+	 // Track 
+	&::-webkit-scrollbar-track {
+		box-shadow: inset 0 0 4px rgba(238, 238, 238, 1);
+		@include b-radius(2.5px);
+	}
+	 // Handle 
+	&::-webkit-scrollbar-thumb {
+		background: rgba(71, 180, 234, 0.2); 
+		@include b-radius(4px);
+	}
+	 // Handle on hover 
+	&::-webkit-scrollbar-thumb:hover {
+		background:  rgba(71, 180, 234, 0.25); 
+	}
+}
+/*==X===End of custom Scroll Bar===X==*/
